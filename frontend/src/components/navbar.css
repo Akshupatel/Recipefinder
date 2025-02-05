@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;          /* Use Flexbox for alignment */
+    justify-content: space-between; /* Distribute items with space between */
+    align-items: center;    /* Vertically center items */
+    padding: 10px 20px;     /* Add some padding */
+    background-color: #326972; /* Optional: Navbar background color */
+    height: 80px;
+  }
+
+  .left {
+    font-weight: bold;      /* Optional: Style for left text */
+  }
+
+  .right {
+    display: flex;          /* Make the right part flexible for multiple items */
+    gap: 20px;              /* Add space between items on the right */
+  }
+
+  .right a {
+    text-decoration: none;  /* Optional: Remove underline for links */
+    color: #333;            /* Optional: Link color */
+  }

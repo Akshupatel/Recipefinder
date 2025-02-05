@@ -1,0 +1,48 @@
+/* Container for all recipe boxes */
+/* .recipes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    border: #333;
+  } */
+  
+  /* Individual recipe box */
+  .recipe-box {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: #fffafa; /* Light background for the box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(158, 144, 144, 0.1); /* Slight shadow */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    margin: 20px;
+    
+  }
+  
+  /* Recipe box hover effect */
+  .recipe-box:hover {
+    transform: scale(1.05); /* Slightly enlarge the box on hover */
+  }
+  
+  /* Styling for recipe image */
+  .recipe-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; /* Round the edges of the image */
+    margin-bottom: 5px; /* Space between image and name */
+  }
+  
+   
+
+  /* Recipe name styling */
+  .recipe-name {
+    margin: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
